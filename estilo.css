@@ -312,7 +312,8 @@
             
           }
         .direccion {
-            color: #575656;
+            color: #2f57ad;
+            font-weight: 600;
           }
         .datos {
             font-size: small;
@@ -481,88 +482,87 @@
         /* seccion C O N T A C T O */
         /* *********************/
         
-        #contacto {
-            padding: 70px 15px;
-            background-color: #e4e4e4;
-        }
-        
-        #contacto .titulo-seccion {
-            margin-bottom: 20px;
-        }
-        
-        #contacto .contenedor-form {
-            max-width: 1100px;
-            margin: auto;
-        }
-        
-        #contacto .contenedor-form .fila {
-            margin-bottom: 15px;
-        }
-        
-        #contacto .contenedor-form .mitad {
-            display: flex;
-            justify-content: space-between;
-        }
-        
-        #contacto .contenedor-form input,
-        #contacto .contenedor-form textarea {
-            padding: 20px;
-            border-radius: 20px;
-            border: none;
-            border: 0.5px solid #0000008a;
-        }
-        
-        #contacto .contenedor-form .mitad input {
-            width: 48%;
-        }
-        
-        #contacto .contenedor-form .input-full {
-            width: 100%;
-        }
-        
-        #contacto .titulo-seccion {
-            text-align: center;
-            font-size: 22px;
-            text-transform: uppercase;
-            color: #2f57ad;
-            text-decoration: underline;
-            text-decoration-color: #edebeb;
-            text-decoration-thickness: 5px;
-             font-weight: 800;
-        }
-        .bton-contacto{
-            text-decoration: none;
-            display: inline-block;
-            margin: 25px;
-            padding: 8px 20px;
-            border: 2px solid #ffffff;
-            border-radius: 50px;
-            color: #2f57ad;
-            font-weight: bold;
-        
-            transition: .5s;
-            
-        }
+    #contacto {
+        padding: 10px 5px;
+        max-width: 80%;
+        border: 0.1px solid #6868688a;
+   
+    background-color: #f2f2f2;
+}
 
-        .bton-contacto:hover{
-            background-color:#fd7e14;
-            color: rgb(255, 254, 254);
-            
-        }
-        #contacto .btn-enviar {
-            display: block;
-            margin: auto;
-            cursor: pointer;
-            transition: .5s;
-            padding: 10px 15px !important;
-            border-radius: 50px;
-            
-        }
-        
-        #contacto .btn-enviar:hover {
-            background-color: #2f57ad; 
-            color: #fff;
-        }
+#contacto .titulo-seccion {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#contacto .contenedor-form {
+    max-width: 85%;
+    margin: auto;
+}
+
+#contacto .contenedor-form .fila {
+    margin-bottom: 15px;
+}
+   
+#contacto .contenedor-form input,
+#contacto .contenedor-form textarea {
+    padding: 10px;
+    border: 0.5px solid #2121218a;
+   
+}
+
+
+#contacto .contenedor-form .input-full {
+    width: 100%;
+}
+
+#contacto .titulo-seccion {
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #2f57ad;
+    text-decoration: underline;
+    text-decoration-color: #edebeb;
+    text-decoration-thickness: 5px;
+     font-weight: 800;
+     margin-top: 30px;
+}
+
+#contacto .btn-enviar {
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    transition: .5s;
+    padding: 10px 15px !important;
+    background-color:#033297;
+    color: #ffffff;
+}
+#contacto .btn-enviar:hover{
+    background-color:#ffffff;
+    color: #2f57ad;
+   
+    font-weight: 700;
+}   
+#contacto .titulo-formulario {
+   
+    font-size: 18px;
+    font-weight: 200;
+    color: #707070;
+
+    
+     font-weight: 800;
+}
+.telefonos{
+    color: #033297;
+    font-weight: 600;
+    font-size: 18px;
+}
+.linea{
+   
+    width: 10%;
+    border-width: 2px;
+}
+
         /* *********************/
         /* seccion F O O T E R */
         /* *********************/
